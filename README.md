@@ -21,4 +21,5 @@
 <img width="49" height="102" alt="image" src="https://github.com/user-attachments/assets/d55ef34e-3d22-45b7-bc6e-fca71e1360c3" />
 
 Результат обчислень:
-<img width="486" height="852" alt="image" src="https://github.com/user-attachments/assets/54d7834f-5790-42af-80e2-3e80cfc6be7d" />
+
+<img width="445" height="842" alt="image" src="https://github.com/user-attachments/assets/c6f12119-966b-4be4-a295-317b7fb5a7a0" />
