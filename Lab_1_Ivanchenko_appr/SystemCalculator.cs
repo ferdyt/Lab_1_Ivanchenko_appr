@@ -19,6 +19,11 @@ namespace Lab_1_Ivanchenko_appr
                 }
             }
 
+            for (int i = 0; i < solution.Length; i++)
+            {
+                solution[i] = Math.Round(solution[i], 2);
+            }
+
             return solution;
         }
     }
