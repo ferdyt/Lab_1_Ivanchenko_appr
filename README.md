@@ -13,8 +13,10 @@
 
 ## Результат роботи
 Варіант: 6
+
 Матриця A:
 <img width="101" height="103" alt="image" src="https://github.com/user-attachments/assets/f9abfc0f-c46c-4e77-b467-165954530518" />
+
 Матриця B:
 <img width="49" height="102" alt="image" src="https://github.com/user-attachments/assets/d55ef34e-3d22-45b7-bc6e-fca71e1360c3" />
 
