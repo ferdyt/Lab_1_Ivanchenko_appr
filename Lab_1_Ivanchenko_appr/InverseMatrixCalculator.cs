@@ -41,7 +41,7 @@ namespace Lab_1_Ivanchenko_appr
             {
                 for (int j = 0; j < n; j++)
                 {
-                    matrix[i, j] = nextStep[i, j] / pivot;
+                    matrix[i, j] = Math.Round(nextStep[i, j] / pivot, 2);
                 }
             }
         }
@@ -49,28 +49,17 @@ namespace Lab_1_Ivanchenko_appr
         public List<Matrix> Eliminate(Matrix matrix)
         {
             int n = matrix.Rows;
-            List<int> zeros = new List<int>();
 
             for (int k = 0; k < n; k++)
             {
                 if (matrix[k, k] == 0)
                 {
-                    zeros.Add(k);
                     continue;
                 }
+
                 CalculateElements(matrix, k);
                 iterations.Add(matrix.Clone());
                 matrix.Rank++;
-            }
-
-            if (zeros.Count > 0)
-            {
-                for (int k = 0; k < zeros.Count; k++)
-                {
-                    int k2 = zeros[k];
-                    CalculateElements(matrix, k2);
-                    iterations.Add(matrix.Clone());
-                }
             }
 
             return iterations;
