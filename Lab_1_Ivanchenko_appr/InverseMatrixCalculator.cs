@@ -41,7 +41,7 @@ namespace Lab_1_Ivanchenko_appr
             {
                 for (int j = 0; j < n; j++)
                 {
-                    matrix[i, j] = Math.Round(nextStep[i, j] / pivot, 2);
+                    matrix[i, j] = nextStep[i, j] / pivot;
                 }
             }
         }
